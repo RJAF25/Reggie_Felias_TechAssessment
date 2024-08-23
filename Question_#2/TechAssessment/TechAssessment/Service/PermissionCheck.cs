@@ -12,7 +12,7 @@ namespace TechAssessment.Service
         return false;
       }
 
-      char result = userSetting[(int)userType];
+      char result = userSetting[(int)userType - 1];
       return (result == '1') ? true : false;
     }
   }
