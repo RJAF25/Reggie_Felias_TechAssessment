@@ -20,4 +20,10 @@
     <ProjectReference Include="..\TechAssessment\TechAssessment.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="DummyUserList.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
